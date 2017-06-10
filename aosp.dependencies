@@ -1,10 +1,32 @@
 [
   {
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
+    "remote" : "github"
+    "repository": "viscropst/android_device_xiaomi_libra",
+    "target_path": "device/xiaomi/libra"
+    "revision" : "AEX-7.x"
   },
   {
-    "repository": "android_kernel_xiaomi_libra",
-    "target_path": "kernel/xiaomi/libra"
+    "remote" : "github"
+    "repository": "AndropaX/android_kernel_xiaomi_msm8992",
+    "target_path": "kernel/xiaomi/msm8992"
+    "revision" : "RR-7.1"
+  },
+  {
+    "remote" : "github"
+    "repository": "AndropaX/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi"
+    "revision" : "RR-7.1"
+  },
+  {
+    "remote" : "github"
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
+    "revision" : "cm-14.1"
+  },
+  {
+    "remote" : "github"
+    "repository": "Mokee/android_prebuilts_snapdragon_llvm-3.8",
+    "target_path": "prebuilts/snapdragon/llvm-3.8"
+    "revision" : "mkn-mr1"
   }
 ]
