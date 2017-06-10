@@ -1,3 +1,3 @@
-PRODUCT_PACKAGES += \
-    XiaomiDoze \
-    EdgeControl
+#PRODUCT_PACKAGES += \
+#    XiaomiDoze \
+#    EdgeControl
