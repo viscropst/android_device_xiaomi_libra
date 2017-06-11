@@ -1,0 +1,62 @@
+[
+  {
+    "remote" : "github"
+    "repository": "viscropst/android_device_xiaomi_libra",
+    "target_path": "device/xiaomi/libra"
+    "revision" : "n7x-caf"
+  },
+  {
+    "remote" : "github"
+    "repository": "AndropaX/android_kernel_xiaomi_msm8992",
+    "target_path": "kernel/xiaomi/msm8992"
+    "revision" : "RR-7.1"
+  },
+  {
+    "remote" : "github"
+    "repository": "AndropaX/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi"
+    "revision" : "RR-7.1"
+  },
+  {
+    "remote" : "github"
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
+    "revision" : "cm-14.1"
+  },
+  {
+    "repository" : "DirtyUnicorns/android_system_qcom",
+    "target_path": "system/qcom",
+    "branch"     : "n7x-caf"
+  },
+  {
+    "repository" : "DirtyUnicorns/android_external_ant-wireless_ant_service",
+    "target_path": "external/ant-wireless/ant_service",
+    "branch"     : "n7x-caf"
+  },
+  {
+    "repository" : "DirtyUnicorns/android_external_ant-wireless_ant_native",
+    "target_path": "external/ant-wireless/ant_native",
+    "branch"     : "n7x-caf"
+  },
+  {
+    "repository" : "DirtyUnicorns/android_external_ant-wireless_antradio-library",
+    "target_path": "external/ant-wireless/antradio-library",
+    "branch"     : "n7x-caf"
+  },
+  {
+    "repository" : "DirtyUnicorns/android_external_connectivity",
+    "target_path": "external/connectivity",
+    "branch"     : "n7x-caf"
+  },
+  {
+    "repository": "DirtyUnicorns/android_external_stlport",
+    "target_path": "external/stlport",
+    "branch": "n7x-caf"
+  },
+  {
+    "remote" : "github"
+    "repository": "Mokee/android_prebuilts_snapdragon_llvm-3.8",
+    "target_path": "prebuilts/snapdragon/llvm-3.8"
+    "revision" : "mkn-mr1"
+  }
+]

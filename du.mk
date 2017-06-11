@@ -8,15 +8,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common DU stuff.
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/libra/device.mk)
 
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := aosp_libra
+PRODUCT_NAME := du_libra
 PRODUCT_DEVICE := libra
 
 BOARD_VENDOR := Xiaomi
@@ -33,4 +33,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Build Magisk
-DEFAULT_ROOT_METHOD := magisk   
+#DEFAULT_ROOT_METHOD := magisk   
