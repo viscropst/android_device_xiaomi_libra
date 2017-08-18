@@ -26,15 +26,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-<<<<<<< HEAD:lineage.mk
     PRODUCT_NAME="libra" \
     BUILD_FINGERPRINT="Xiaomi/libra/libra:7.0/NRD90M/V8.5.1.0.NXKCNED:user/release-keys" \
     PRIVATE_BUILD_DESC="libra-user 7.0 NRD90M V8.5.1.0.NXKCNED release-keys"
-=======
-    PRODUCT_NAME="Mi 4c" \
-    BUILD_FINGERPRINT="Xiaomi/libra/libra:7.0/NRD90M/V8.2.3.0.NXKCNEC:user/release-keys" \
-    PRIVATE_BUILD_DESC="libra-user 7.0 NRD90M V8.2.3.0.NXKCNEC release-keys"
->>>>>>> AEX-7.x:aosp_libra.mk
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
